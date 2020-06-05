@@ -1,6 +1,6 @@
 # RESTGen
 
-O **RESTGen** (gerador de REST) é uma interface automatizadora de geração de REST. Ele basicamente, tem a função de automatizar rotinas comuns na criação de API'S REST. Em seu escopo, temos uma estrutura através da qual vamos poder gerar toda a interface de criação de transações de fluxos de dados entre bancos de dados e o consumo desses dados de forma automática. Assim, sua função principal é além de gerar o CRUD necessário para manejo de informações. É prover uma interface padrão de gestão de informações.
+O **RESTGen** (gerador de REST) é uma interface que automatiza a geração de REST. Ele basicamente, tem a função de automatizar a criação rotinas comuns em de API'S REST. Em seu escopo, temos uma estrutura através da qual vamos poder gerar, toda a interface de criação de transações, e fluxos de informações entre bancos de dados e o consumo desses dados de forma automática. Assim, sua função principal é além de gerar o CRUD necessário para manejo de informações. É prover uma interface padrão de gestão de informações.
 
 A intenção por trás dessa iniciativa, é fazer com que o processo de criação de um sistema de gerenciamento de informação possa ser automatizada a partir de "schemas", que nada mais são do que modelos de cada peça chave (objetos, pessoas, entidades…) relevantes ao nosso sistema.
 

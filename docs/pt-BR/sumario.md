@@ -7,5 +7,5 @@ Se você deseja aprender a usar o RESTGen, é por aqui que deve começar escolha
 A documentação de desenvolvimento, é o roteiro de desenvolvimento do RESTGen. Através desse roteiro, você podera aprender conceitos como injeção de dependencia, pure functions (funções puras), entre outros. Também gravamos vídeo aulas nos nossos canais no Youtube e Instagram para que você possa aprender a desenvolver e colaborar com esse projeto OpenSource.
 
 * 01 - Introdução. O que é uma API REST?
-  * Clique aqui para vídeo aula
+  * Clique [aqui](https://youtu.be/Goh6MhgXMNg) para vídeo aula
   * Clique [aqui](./01Introducao.md) para leitura

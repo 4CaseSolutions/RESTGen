@@ -1,0 +1,22 @@
+{
+  "name": "restgen",
+  "version": "1.0.0",
+  "description": "Automatic generator for REST API by 4Case Solutions",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4CaseSolutions/RESTGen.git"
+  },
+  "author": "Neto Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/4CaseSolutions/RESTGen/issues"
+  },
+  "homepage": "https://github.com/4CaseSolutions/RESTGen#readme"
+}

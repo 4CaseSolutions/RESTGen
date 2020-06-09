@@ -12,4 +12,4 @@ A documentação de desenvolvimento, é o roteiro de desenvolvimento do RESTGen.
 
 * 02 - NodeJS JavaScript assincrono server side
   * Clique [aqui]() para vídeo aula
-  * Clique [aqui](./NodeJS.md) para leitura
+  * Clique [aqui](./02NodeJS.md) para leitura

@@ -9,3 +9,7 @@ A documentação de desenvolvimento, é o roteiro de desenvolvimento do RESTGen.
 * 01 - Introdução. O que é uma API REST?
   * Clique [aqui](https://youtu.be/Goh6MhgXMNg) para vídeo aula
   * Clique [aqui](./01Introducao.md) para leitura
+
+* 02 - NodeJS JavaScript assincrono server side
+  * Clique [aqui]() para vídeo aula
+  * Clique [aqui](./NodeJS.md) para leitura

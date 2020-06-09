@@ -31,7 +31,7 @@ $ node
 > console.log("hello world")
 ```
 
-## Node Package Manager (NPM) e node_modules
+## Node Package Manager (NPM)
 
 O NPM é um gerenciador de dependências (pacotes desenvolvidos por terceiros presentes no NPM online) ou pacotes presente no NodeJS. Através dele, podemos estruturar nossas aplicações e suas dependencias. Assim, o NPM cria um arquivo de gerenciamento que se encontrará na raiz dos nossos projetos, o **package.json** e sempre que precisarmos fazer mudanças estruturais na nossa aplicação, como instalação em outro server, instalação de novas dependências o NPM irá gerenciar a instalação de tudo automáticamente de acordo com a plataforma que estivermos usando (Win, Linux, MacOS). Programas escritos em Node podem utilizar módulos ou frameworks desenvolvidos por outros desenvolvedores e compartilhados com a comunidade através dos repositórios do NPM online como já dissemos anteriormente, você inclusive pode desenvolver seus pacotes de disponibilizar via NPM.
 

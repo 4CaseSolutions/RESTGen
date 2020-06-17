@@ -12,6 +12,14 @@ A instalação pode ser feita através do "npm" assim como quaisquer outros mód
 npm i -S fastify
 ```
 
+Assim que instalar o fastify, vamos informar ao git do projeto para ignorar o diretório node_modules e o package-lock.json
+
+```
+$ vim .gitignore
+
+
+```
+
 ## Criando nossa primeira API
 
 Para criar uma API simples nele é de fato muito "simples". Você pode instanciar uma execução dele em uma constante, como no caso abaixo "app" e passar como parametro de execução do fastify alguns parametros de configuração, nesse caso, habilitaremos os logs para podermos observar as transações feitas com nossa API em desenvolvimento.

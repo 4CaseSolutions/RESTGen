@@ -1,6 +1,6 @@
-# NodeJS
+# Fastify
 
-O **Fastify**, é um framework de desenvolvimento de Web API com foco em desempenho e baixo custo de processamento. Por isso, ele é uma ferramenta que vem se destacando e ganhando inclusive público do **Express** na criação de API REST para micro serviços.
+O **Fastify**, é um framework Web com foco em desempenho e baixo custo de processamento. Por isso, ele é uma ferramenta que vem se destacando e ganhando inclusive público do **Express** na criação de API REST para micro serviços.
 
 A vantagem de se utilizar o "Fastify", é que ele abastrai a necessidade de desenvolvimento de toda uma estrutura de codigo para gerar uma interface HTTP para nossas API's. Frente à outros frameworks, ele já conta com uma estrutura de configuração onde podemos passar como parametros a exibição de logs de transação, a padronização das respostas às transações das quais fez parte, a exibição em árvore da estrutura de rotas já disponibilizadas através dele. Além de contar com todo o roteamento necessário para nossa API como GET, POST, UPDATE, DELETE, outros.
 
@@ -17,6 +17,10 @@ Assim que instalar o fastify, vamos informar ao git do projeto para ignorar o di
 ```
 $ vim .gitignore
 
+node_modules
+package-lock.json
+
+<esc>:wq!
 
 ```
 

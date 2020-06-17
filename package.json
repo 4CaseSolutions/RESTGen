@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/4CaseSolutions/RESTGen/issues"
   },
-  "homepage": "https://github.com/4CaseSolutions/RESTGen#readme"
+  "homepage": "https://github.com/4CaseSolutions/RESTGen#readme",
+  "dependencies": {
+    "fastify": "^2.14.1"
+  }
 }

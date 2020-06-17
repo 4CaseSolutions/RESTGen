@@ -12,7 +12,7 @@ A documentação de desenvolvimento, é o roteiro de desenvolvimento do RESTGen.
 
 * 02 - Ambiente de desenvolvimento
   * Clique [aqui]() para vídeo aula
-  * Clique [aqui](./03AmbienteDev.md) para leitura
+  * Clique [aqui](./02AmbienteDev.md) para leitura
 
 * 03 - Setup - Preparando o ambiente de desenvolvimento virtual
   * Clique [aqui]() para vídeo aula

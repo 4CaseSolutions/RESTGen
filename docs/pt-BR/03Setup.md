@@ -51,9 +51,11 @@ Uma outra boa prática é manter cada CRUD em um folder diferente. Por exemplo, 
 
 ![Insomnia requests](./../img/insomniaRequest.png)
 
-E então, você criar os requests detro dessa folder de acordo com sua necessidade.
+E então, você pode criar os requests detro dessa folder de acordo com sua necessidade.
 
 ![Insomnia site](./../img/InsominiaSite.png)
+
+Você pode inclusive criar um request de acesso à um site expecífico
 
 ![Insomnia test](./../img/InsomniaTest.png)
 

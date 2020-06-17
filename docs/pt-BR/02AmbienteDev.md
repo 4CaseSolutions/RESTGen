@@ -17,4 +17,4 @@ A dedicação diária, semanal ou mensal que você irá empreender à cada item 
 
 Quando você sabe exatamente o que precisa entregar, é mais fácil conseguir gerar um produto dos esforços empregados para esse fim. Em desenvolvimento de sistemas, aprender a definir e entregar MVP's (mínimo produto viável) fará toda a diferença na evolução dos seus projetos. MVP's, nos ajudam à desenvolver sistemas funcionais no menor tempo possível. Um MVP, é justamente a entrega de funcionalidades importantes de um sistema; então esses pequenos pedaços de sistema, podem ajudar a melhorar o gerenciamento do negócio ao qual será direcionado. Assim, além dos consumidores do sistema (investidores, clientes, etc.), a equipe também ganha folego e se mais produtiva. Nós seres humanos somos motivados a recompensa. Quem não gosta de se sentir util e ver resultados nos seus esforços? Além disso, cada entrega pode ser homologada no ambiente de uso (POC ou prova de conceito).
 
-[Anterior](./02NodeJS.md) <---- | ----> [Avançar](./04Fastify.md)
+[Anterior](./01Introducao.md) <---- | ----> [Avançar](./03Setup.md)

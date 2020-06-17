@@ -10,6 +10,14 @@ A documentação de desenvolvimento, é o roteiro de desenvolvimento do RESTGen.
   * Clique [aqui](https://youtu.be/Goh6MhgXMNg) para vídeo aula
   * Clique [aqui](./01Introducao.md) para leitura
 
-* 02 - NodeJS JavaScript assincrono server side
+* 02 - Ambiente de desenvolvimento
   * Clique [aqui]() para vídeo aula
-  * Clique [aqui](./02NodeJS.md) para leitura
+  * Clique [aqui](./03AmbienteDev.md) para leitura
+
+* 03 - Setup - Preparando o ambiente de desenvolvimento virtual
+  * Clique [aqui]() para vídeo aula
+  * Clique [aqui](./03Setup.md) para leitura
+
+* 04 - NodeJS JavaScript assincrono server side
+  * Clique [aqui]() para vídeo aula
+  * Clique [aqui](./04NodeJS.md) para leitura

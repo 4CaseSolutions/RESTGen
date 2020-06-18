@@ -8,7 +8,13 @@ const app = require("fastify")({
   logger: true
 });
 const db = require("mongoose");
-db.connect(`mongodb://127.0.0.1:27017/RESTGen`);
+db.connect(
+  `mongodb://127.0.0.1:27017/RESTGen`,
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  }
+);
 
 app.get("/objects", (req, res) => {
   res.send([

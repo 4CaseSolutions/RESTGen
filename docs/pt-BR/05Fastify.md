@@ -2,7 +2,7 @@
 
 O **Fastify**, é um framework Web com foco em desempenho e baixo custo de processamento. Por isso, ele é uma ferramenta que vem se destacando e ganhando inclusive público do **Express** na criação de API REST para micro serviços.
 
-A vantagem de se utilizar o "Fastify", é que ele abastrai a necessidade de desenvolvimento de toda uma estrutura de codigo para gerar uma interface HTTP para nossas API's. Frente à outros frameworks, ele já conta com uma estrutura de configuração onde podemos passar como parametros a exibição de logs de transação, a padronização das respostas às transações das quais fez parte, a exibição em árvore da estrutura de rotas já disponibilizadas através dele. Além de contar com todo o roteamento necessário para nossa API como GET, POST, UPDATE, DELETE, outros.
+A vantagem de se utilizar o "Fastify", é que ele abstrai a necessidade de desenvolvimento de toda uma estrutura de código para gerar uma interface HTTP para nossa API. Frente à outros frameworks, ele já conta com uma estrutura de configuração onde podemos passar como parametros a exibição de logs de transação, a padronização das respostas às transações das quais fez parte, a exibição em árvore da estrutura de rotas já disponibilizadas através dele. Além de contar com todo o roteamento necessário para nossa API como GET, POST, UPDATE e DELETE.
 
 ## Instalação
 
@@ -63,6 +63,43 @@ Abra o navegador de sua preferencia e acesse sua API a partir dele. Com a URL de
 Observe que ao dar um "Enter", mesmo que nós não tenhamos definido uma rota inicial para nossa API, já vamos por padrão ter uma resposta de erro no cliente (browser). Essa mensagem contará inclusive com statusCode da transação, mesmo que nós não tenhamos definido nem uma tratativa de erro.
 
 *{"message":"Route GET:/ not found","error":"Not Found","statusCode":404}*
+
+## Criando nossa primeira rota
+
+Para criar uma rota, você pode utilizar o verbo necessário para essa rota. E então, passar como parâmetro a URI da rota e uma função de callback que vai receber o conteúdo do Request, Response e fazer então esses dados poderam ser manipulados afim de retornar o conteúdo adequado para consumo.
+
+Ainda seguindo o exemplo do nosso código, vamos incluir uma rota para buscar pegar todos nossos objetos na API no nosso "app.js". Assim, vamos usar o metodo GET.
+
+```
+const app = require("fastify")({
+  logger: true
+});
+
+// ROTA INCLUIDA NO NOSSO APP
+
+app.get("/objects", (req, res) => {
+  res.send([
+    { object: "Hello"},
+    { object: "World"},
+  ]);
+});
+
+// --------------------------//
+
+app.listen( 3000, "127.0.0.1")
+.then( addr => console.log(`API runing in: ${addr}`))
+.catch( err => console.error(`Houston, we have a problem | ${err}`));
+```
+
+Agora, ao digitar em nosso navegador a url para essa rota, teremos a resposta à requisição contendo uma lista de objetos de acordo com o que nossa rota está enviando para o requisitante.
+
+Request:
+
+> http://localhost:3000/objects
+
+Resposta:
+
+> [{"object":"Hello"},{"object":"World"}]
 
 
 

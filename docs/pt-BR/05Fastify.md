@@ -60,7 +60,7 @@ Abra o navegador de sua preferencia e acesse sua API a partir dele. Com a URL de
 
 > *http://127.0.0.1:3000*
 
-Observe que ao dar um "Enter", mesmo que nós não tenhamos definido uma rota inicial para nossa API, já vamos por padrão ter uma resposta de erro no cliente (browser). Essa mensagem contará inclusive com statusCode da transação, mesmo que nós não tenhamos definido nem uma tratativa de erro.
+Observe que ao submeter nossa requisição, mesmo que nós não tenhamos definido uma rota raiz ("/") para nossa API. Por padrão, receberemos uma resposta de erro no cliente (browser). Essa mensagem contará inclusive com statusCode da transação, mesmo que nós não tenhamos definido nem uma tratativa de erro.
 
 > *{"message":"Route GET:/ not found","error":"Not Found","statusCode":404}*
 

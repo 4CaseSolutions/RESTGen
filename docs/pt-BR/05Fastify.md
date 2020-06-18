@@ -58,11 +58,11 @@ Esse objeto de log será exibido justamente pois passamos como parametro do obje
 
 Abra o navegador de sua preferencia e acesse sua API a partir dele. Com a URL de acordo com o que foi programado: 
 
-*http://127.0.0.1:3000*
+> *http://127.0.0.1:3000*
 
 Observe que ao dar um "Enter", mesmo que nós não tenhamos definido uma rota inicial para nossa API, já vamos por padrão ter uma resposta de erro no cliente (browser). Essa mensagem contará inclusive com statusCode da transação, mesmo que nós não tenhamos definido nem uma tratativa de erro.
 
-*{"message":"Route GET:/ not found","error":"Not Found","statusCode":404}*
+> *{"message":"Route GET:/ not found","error":"Not Found","statusCode":404}*
 
 ## Criando nossa primeira rota
 

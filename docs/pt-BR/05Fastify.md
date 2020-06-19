@@ -79,8 +79,8 @@ const app = require("fastify")({
 
 app.get("/objects", (req, res) => {
   res.send([
-    { object: "Hello"},
-    { object: "World"},
+    { name: "Hello"},
+    { name: "World"},
   ]);
 });
 
@@ -99,8 +99,33 @@ Request:
 
 Resposta:
 
-> [{"object":"Hello"},{"object":"World"}]
+> [{"name":"Hello"},{"name":"World"}]
 
+## Async response
 
+Uma outra vantagem do Fastify, é a padronização automática do response para os casos onde a resposta para nossa requisição é gerada através de uma Promisse. Como em toda conexão com o banco de dados temos que aguardar a execução de promisses, podemos passar funçṍes async como callback das nossas rotas do fatify, e retornar o resultado da promisse para o request ao invés de usar o "res.send" pois em caso de funções Async, o fastify executa o res.send implicitamente para enviar o retorno das requisições em funções Async.
 
-[Anterior](./04NodeJS.md) <---- | ----> [Avançar](./06MongoDB.md)
+```
+const app = require("fastify")({
+  logger: true
+});
+
+// ROTA ASYNC SIMULAÇÃO DE PROMISSE
+
+app.get("/objects", async (req, res) => {
+  return await [
+    { name: "Hello"},
+    { name: "World"},
+  ];
+});
+
+// --------------------------//
+
+app.listen( 3000, "127.0.0.1")
+.then( addr => console.log(`API runing in: ${addr}`))
+.catch( err => console.error(`Houston, we have a problem | ${err}`));
+```
+
+Ao executar novamente a requisição no nosso navegador, perceba que o resultado será o mesmo.
+
+[Anterior](./04NodeJS.md) <---- | ----> [Avançar](./06Mongoose.md)

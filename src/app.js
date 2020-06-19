@@ -16,11 +16,24 @@ db.connect(
   }
 );
 
-app.get("/objects", (req, res) => {
-  res.send([
-    { object: "Hello"},
-    { object: "World"},
-  ]);
+const objSchema = new db.Schema(
+  {
+    name: String,
+    createdAt: { type: Date, default: new Date() }
+  },
+  {
+    collection: "objects",
+    versionKey: false
+  }
+);
+
+const objModel = db.model(
+  "Object",
+  objSchema
+);
+
+app.get("/objects", async (req, res) => {
+  return await objModel.find({});
 });
 
 app.listen( 3000, "127.0.0.1")

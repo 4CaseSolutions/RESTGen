@@ -21,3 +21,11 @@ A documentação de desenvolvimento, é o roteiro de desenvolvimento do RESTGen.
 * 04 - NodeJS JavaScript assincrono server side
   * Clique [aqui]() para vídeo aula
   * Clique [aqui](./04NodeJS.md) para leitura
+
+* 05 - Fastify HTTP Framework
+  * Clique [aqui]() para vídeo aula
+  * Clique [aqui](./05Fastify.md) para leitura
+
+* 06 - Mongoose
+  * Clique [aqui]() para vídeo aula
+  * Clique [aqui](./05Mongoose.md) para leitura

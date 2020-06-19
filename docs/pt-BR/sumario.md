@@ -28,4 +28,4 @@ A documentação de desenvolvimento, é o roteiro de desenvolvimento do RESTGen.
 
 * 06 - Mongoose
   * Clique [aqui]() para vídeo aula
-  * Clique [aqui](./05Mongoose.md) para leitura
+  * Clique [aqui](./06Mongoose.md) para leitura
